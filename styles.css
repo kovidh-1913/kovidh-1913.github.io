@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+h1{
+  margin-bottom: 5px;
+  font-size: 50px;
+  margin-top: 100px;
+}
+.subhead{
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin-top: 5px;
+  font-size: 25px;
+}
+.desc{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+.hdiv{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.pdf{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+.pdf:hover {
+  transform: scale(1.08);
+  opacity: 0.7;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: none;
+  width: 80%;
+}
+
+td, th {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 12px;
+  text-align: center;
+}
